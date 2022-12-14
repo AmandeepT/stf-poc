@@ -1,4 +1,4 @@
-FROM openstf/stf:latest
+FROM amandeept/stf:latest
 
 USER root
 RUN mkdir data && chown stf:stf data
